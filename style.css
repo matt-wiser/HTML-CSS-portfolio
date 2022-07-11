@@ -1,10 +1,20 @@
+/* ROBOTO REGULAR */
+/* font-family: 'Roboto', sans-serif; */
+
+/* ROBOTO MONO */
+/* font-family: 'Roboto Mono', monospace; */
+nav a {
+    font-family: 'Roboto Mono', monospace;
+}
+
 section h2 {
-    width: 25%;
-    font-size: 200%;
-    display: inline;
+    font-family: 'Roboto Mono', monospace;
 }
 
 section p{
-    display: inline;
-    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact a {
+    font-family: 'Roboto Mono', monospace;
 }
