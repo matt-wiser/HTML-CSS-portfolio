@@ -89,10 +89,10 @@ nav ul li{
 
 }
 
-.show-bg {
+#show-bg-hero {
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('img/challenge-5-screen.png');
+    url('img/nationalparkfinder.jpeg');
     width: 80%;
     height: 75vh;
     margin: 0 auto;
@@ -101,11 +101,11 @@ nav ul li{
     position: relative;
 }
 
-.show-bg:hover{
-    background-image: url('img/challenge-5-screen.png');
+#show-bg-hero:hover{
+    background-image: url('img/nationalparkfinder.jpeg');
 }
 
-.show-bg a span{
+#show-bg-hero a span{
     position:absolute; 
     width:100%;
     height:100%;
@@ -115,12 +115,166 @@ nav ul li{
     font-size: 200%;
 
 }
-.show-bg h2 {
+#show-bg-hero h2 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: #6f5c82;
     color: #e3d5f0;
+}
+
+#project-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#show-bg-1 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('img/challenge-5-screen.png');
+    width: 40%;
+    height: 45vh;
+    margin: 25px auto;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+#show-bg-1:hover{
+    background-image: url('img/challenge-5-screen.png');
+}
+
+#show-bg-1 a span{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:100;
+    left: 0;
+    z-index: 1;
+    font-size: 200%;
+
+}
+#show-bg-1 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6f5c82;
+    color: #e3d5f0;
+}
+
+
+
+#show-bg-2 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('img/challenge-5-screen.png');
+    width: 40%;
+    height: 45vh;
+    margin: 25px auto;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+#show-bg-2:hover{
+    background-image: url('img/challenge-5-screen.png');
+}
+
+#show-bg-2 a span{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:100;
+    left: 0;
+    z-index: 1;
+    font-size: 200%;
+
+}
+#show-bg-2 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6f5c82;
+    color: #e3d5f0;
+}
+
+#show-bg-3 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('img/challenge-5-screen.png');
+    width: 40%;
+    height: 45vh;
+    margin: 25px auto;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+#show-bg-3:hover{
+    background-image: url('img/challenge-5-screen.png');
+}
+
+#show-bg-3 a span{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:100;
+    left: 0;
+    z-index: 1;
+    font-size: 200%;
+
+}
+#show-bg-3 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6f5c82;
+    color: #e3d5f0;
+}
+
+#show-bg-4 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('img/challenge-5-screen.png');
+    width: 40%;
+    height: 45vh;
+    margin: 25px auto;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+#show-bg-4:hover{
+    background-image: url('img/challenge-5-screen.png');
+}
+
+#show-bg-4 a span{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:100;
+    left: 0;
+    z-index: 1;
+    font-size: 200%;
+
+}
+#show-bg-4 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6f5c82;
+    color: #e3d5f0;
+}
+
+@media only screen and (max-width: 768px) {
+    #show-bg-1, #show-bg-2, #show-bg-3, #show-bg-4, #show-bg-hero {
+        width: 90%;
+    }
 }
 
 #contact{
