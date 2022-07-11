@@ -1,0 +1,10 @@
+section h2 {
+    width: 25%;
+    font-size: 200%;
+    display: inline;
+}
+
+section p{
+    display: inline;
+    width: 70%;
+}
